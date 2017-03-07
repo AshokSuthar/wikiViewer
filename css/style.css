@@ -1,0 +1,83 @@
+* {
+  background: black;
+  text-align:center;
+  font-family:'Orbitron', cursive;
+  color:White;
+  box-sizing:border-box;
+}
+
+h1 {
+  font-family: 'Orbitron';
+}
+
+.contains {
+  margin-bottom:50px;
+}
+
+.content {
+  margin-top:5%;
+  width:100%;
+  margin-bottom:50px;
+}
+
+.inputarea{
+  width:50%;
+  margin:0 25% 0 25%;
+  
+}
+
+button{
+  cursor:pointer;
+  border-radius:14px;
+}
+
+input[type="text"] {
+  background:#333333;
+  padding:8px;
+  border:none;
+  border-radius:5px;
+  width:30%;
+  -webkit-transition: width 0.4s ease-in-out, margin-left 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out, margin-left 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 40%;
+  margin-left:10%;
+  border: 2px solid #dddddd;
+  background-color: #999999;
+}
+
+.btns {
+  padding:0px;
+  width:30%;
+}
+
+button {
+  padding:6px;
+}
+
+.result {
+  margin-top:10%;
+  clear:both;
+}
+
+.fetched {
+  display:block;
+  color:black;
+  padding:20px;
+  background:white;
+  margin:20px 10px 10px 10px;
+  border-radius:5px;
+}
+
+a.fetched {
+  color:#000000;
+  text-decoration:none;
+}
+
+.fetched:hover {
+  margin:20px 10px 10px 10px;
+  border:5px dashed white;
+  box-shadow:5px 5px 3px #3CBC8D;
+}
